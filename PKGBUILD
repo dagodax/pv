@@ -1,5 +1,5 @@
 pkgname=pv
-pkgver=1.6.0
+pkgver=1.6.6
 pkgrel=1
 pkgdesc='A terminal-based tool for monitoring the progress of data through a pipeline.'
 arch=('x86_64')
@@ -7,7 +7,7 @@ url='http://www.ivarch.com/programs/pv.shtml'
 license=('custom:Artistic 2.0')
 depends=('glibc')
 source=("http://www.ivarch.com/programs/sources/$pkgname-$pkgver.tar.bz2")
-md5sums=('e163d8963c595b2032666724bc509bcc')
+md5sums=('ff3564fddcc2b9bd4a9c1d143aba4b4c')
 
 build() {
   cd "${srcdir}/${pkgname}-${pkgver}"
